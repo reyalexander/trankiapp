@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "956503574906",
+    "firebase_url": "https://trankii.firebaseio.com",
+    "project_id": "trankii",
+    "storage_bucket": "trankii.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956503574906:android:46462122eb1caa05ebaec3",
+        "android_client_info": {
+          "package_name": "com.example.guardian"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956503574906-b34v28oahn13vgt0l8q1frrq4gco2put.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.guardian",
+            "certificate_hash": "5027b08c297060c34e3714597dfe1bca6406dd3d"
+          }
+        },
+        {
+          "client_id": "956503574906-e1d4llkl0b5ovsq6r3ai1igak9hciffu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwEytv61UeO2hYVRRgsmJa5GPXUemn5rU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "956503574906-e1d4llkl0b5ovsq6r3ai1igak9hciffu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
