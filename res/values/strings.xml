@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">TRANKI</string>
+
+    <string name="action_sign_up">Registrarse</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="prompt_password_confirm">Confirme Contraseña</string>
+    <string name="prompt_user">Usuario</string>
+    <string name="number_phone">Número de Celular</string>
+
+    <string name="action_loading">Cargando</string>
+
+    <string name="action_sign_in">Iniciar Sesión</string>
+    <string name="action_register">Guardar</string>
+    <string name="title_activity_init">InitActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="tittle_sites">Mis Sitios</string>
+    <string name="tittle_send_position">Enviar mi posición</string>
+    <string name="tittle_my_position">Mi posición</string>
+    <string name="tittle_search_position">Buscar posición</string>
+    <string name="tittle_contacts">Mis Contactos</string>
+    <string name="tittle_tickets">Mis Tickets</string>
+    <string name="tittle_config">Configuración</string>
+
+    <string name="main_sites">Mis Sitios</string>
+    <string name="main_sendPosition">Enviar mi posición</string>
+    <string name="main_contacts">Mis Contactos</string>
+    <string name="main_config">Configuración</string>
+
+    <string name="empty">No se encontraron datos</string>
+    <string name="my_account">Mi Cuenta</string>
+    <string name="my_equipment">Mis Equipos</string>
+    <string name="my_tickets">Mis Tickets</string>
+    <string name="help">Ayuda</string>
+    <string name="term_cond">Politicas de Privacidad</string>
+    <string name="logout">Cerrar sesión</string>
+
+    <string name="site_name">Nombre del negocio</string>
+    <string name="site_direccion">Dirección</string>
+    <string name="site_correo">Correo</string>
+    <string name="site_ruc">RUC</string>
+    <string name="site_horario">Horario</string>
+
+    <string name="state_ok">OK</string>
+    <string name="state_alert">SOS</string>
+
+    <string name="invited_use_app">Te invito a usar Tranki, Descargala en http://Tranki.com</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

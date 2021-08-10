@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.activitys.DetailContactActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.google.android.material.card.MaterialCardView
+            app:cardElevation="5dp"
+            app:cardCornerRadius="10dp"
+            android:id="@+id/ideaCard__2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/my_account"
+                    android:paddingBottom="4dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="290dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/kindpng_786207"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_name_contac_detail"
+                        android:layout_width="348dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="Tony Brhayams"
+                        android:textColor="@color/black"
+                        android:textSize="19dp"
+                        android:textStyle="bold" />
+
+                    <com.google.android.material.card.MaterialCardView
+                        app:cardElevation="5dp"
+                        app:cardCornerRadius="10dp"
+                        android:layout_weight="1"
+                        android:id="@+id/ideaCard__state"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/foun_suave"
+                        android:layout_margin="10dp">
+
+                        <TextView
+                            android:id="@+id/tv_state_contact_detail"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="OK"
+                            android:textColor="@color/green"
+                            android:textSize="22dp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7.5"></LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <com.google.android.material.card.MaterialCardView
+                            app:cardElevation="5dp"
+                            app:cardCornerRadius="10dp"
+                            android:id="@+id/ideaCard__3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:paddingBottom="8dp"
+                                android:paddingTop="8dp"
+                                android:orientation="vertical">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/my_account"
+                                    android:paddingBottom="7dp"
+                                    android:paddingTop="7dp"
+                                    android:orientation="horizontal">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="20dp"
+                                        android:textSize="17dp"
+                                        android:textColor="@color/saudo_black"
+                                        android:text="Correo :"/>
+                                    <TextView
+                                        android:id="@+id/tv_correo_contact_detail"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textColor="@color/saudo_black"
+                                        android:text="ejemplo@example.com.pe"
+                                        android:layout_marginLeft="10dp"
+                                        android:textSize="17dp"
+                                        />
+                                </LinearLayout>
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0.5dp"
+                                    android:background="@color/colorGris"/>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/my_account"
+                                    android:paddingBottom="5dp"
+                                    android:paddingTop="5dp"
+                                    android:orientation="horizontal">
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical"
+                                        android:layout_weight="1">
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="20dp"
+                                            android:textSize="17dp"
+                                            android:textColor="@color/saudo_black"
+                                            android:text="Celular :"/>
+                                        <TextView
+                                            android:id="@+id/tv_cel_contact_detail"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textColor="@color/saudo_black"
+                                            android:text="987654321"
+                                            android:layout_marginLeft="20dp"
+                                            android:textSize="16dp"
+                                            />
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical"
+                                        android:layout_weight="1">
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="20dp"
+                                            android:textSize="17dp"
+                                            android:textColor="@color/saudo_black"
+                                            android:text="DNI :"/>
+                                        <TextView
+                                            android:id="@+id/tv_dni_contact_detail"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textColor="@color/saudo_black"
+                                            android:text="39594837"
+                                            android:layout_marginLeft="20dp"
+                                            android:textSize="16dp"
+                                            />
+                                    </LinearLayout>
+
+                                </LinearLayout>
+                            </LinearLayout>
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <com.google.android.material.card.MaterialCardView
+                                app:cardElevation="3dp"
+                                app:cardCornerRadius="10dp"
+                                android:layout_weight="1"
+                                android:id="@+id/ideaCard_call"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/found_blue"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                android:clickable="true"
+                                android:layout_margin="10dp">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/ic_call"/>
+
+                            </com.google.android.material.card.MaterialCardView>
+
+                            <com.google.android.material.card.MaterialCardView
+                                app:cardElevation="3dp"
+                                app:cardCornerRadius="10dp"
+                                android:layout_weight="1"
+                                android:id="@+id/ideaCard_msg"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/found_blue"
+                                android:foreground="?android:attr/selectableItemBackground"
+                                android:clickable="true"
+                                android:layout_margin="10dp">
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/ic_mail"/>
+                            </com.google.android.material.card.MaterialCardView>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <org.osmdroid.views.MapView
+            android:id="@+id/map_detail_contact"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            />
+    </LinearLayout>
+
+</FrameLayout>

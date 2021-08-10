@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_position">
+
+    <fragment
+        android:id="@+id/navigation_sites"
+        android:name="com.example.guardian.views.fragment.SitesFragment"
+        android:label="@string/main_sites"
+        tools:layout="@layout/fragment_sites" />
+
+    <fragment
+        android:id="@+id/navigation_position"
+        android:name="com.example.guardian.views.fragment.PositionFragment"
+        android:label="@string/main_sendPosition"
+        tools:layout="@layout/fragment_position" />
+
+    <fragment
+        android:id="@+id/navigation_contacts"
+        android:name="com.example.guardian.views.fragment.ContactsFragment"
+        android:label="@string/main_contacts"
+        tools:layout="@layout/fragment_contacts" />
+
+    <fragment
+        android:id="@+id/navigation_config"
+        android:name="com.example.guardian.views.fragment.ConfigFragment"
+        android:label="@string/main_config"
+        tools:layout="@layout/fragment_contacts" />
+
+</navigation>

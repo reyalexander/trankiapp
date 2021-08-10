@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.activitys.DetailSiteActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            app:cardElevation="8dp"
+            app:cardCornerRadius="12dp"
+            android:id="@+id/ideaCard__2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/my_account"
+                    android:paddingBottom="7dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:text="Nombre :"/>
+                    <TextView
+                        android:id="@+id/tv_name_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="La lucha"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="18dp"
+                        />
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/colorGris"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/my_account"
+                            android:paddingBottom="7dp"
+                            android:paddingTop="7dp"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textSize="17dp"
+                                android:textColor="@color/saudo_black"
+                                android:text="Dirección :"/>
+                            <TextView
+                                android:id="@+id/tv_direccion_detail"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/saudo_black"
+                                android:text="Av Los arces #5085"
+                                android:layout_marginLeft="10dp"
+                                android:textSize="17dp"
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/my_account"
+                            android:paddingBottom="5dp"
+                            android:paddingTop="5dp"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:textSize="17dp"
+                                android:textColor="@color/saudo_black"
+                                android:text="Correo :"/>
+                            <TextView
+                                android:id="@+id/tv_correo_detail"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/saudo_black"
+                                android:text="Av Los arces #5085"
+                                android:layout_marginLeft="10dp"
+                                android:textSize="17dp"
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_weight="5"
+                        android:paddingRight="10dp"
+                        android:src="@drawable/tienda"/>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/my_account"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:textSize="17dp"
+                            android:textColor="@color/saudo_black"
+                            android:text="RUC :"/>
+                        <TextView
+                            android:id="@+id/tv_ruc_detail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/saudo_black"
+                            android:text="97464645455"
+                            android:layout_marginLeft="20dp"
+                            android:textSize="16dp"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:textSize="17dp"
+                            android:textColor="@color/saudo_black"
+                            android:text="HORARIO :"/>
+                        <TextView
+                            android:id="@+id/tv_horario_detail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/saudo_black"
+                            android:text="Lun-Vier /9:00-13:00"
+                            android:layout_marginLeft="20dp"
+                            android:textSize="16dp"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"></LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:layout_weight="1">
+                        <com.google.android.material.card.MaterialCardView
+                            app:cardElevation="4dp"
+                            app:cardCornerRadius="10dp"
+                            android:id="@+id/ideaCard__state"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:background="@color/foun_suave"
+                            android:layout_margin="10dp">
+
+                            <TextView
+                                android:id="@+id/tv_state_detail"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:paddingLeft="20dp"
+                                android:paddingRight="20dp"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:layout_marginRight="20dp"
+                                android:textStyle="bold"
+                                android:text="OK"
+                                android:textColor="@color/green"
+                                android:textSize="22dp" />
+                        </com.google.android.material.card.MaterialCardView>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+        <org.osmdroid.views.MapView
+            android:id="@+id/map_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            />
+
+    </LinearLayout>
+</FrameLayout>

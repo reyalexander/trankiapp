@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:gravity="center"
+    android:paddingRight="10dp"
+    android:clickable="true"
+    android:id="@+id/ln_detail_contact"
+    android:paddingLeft="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:src="@drawable/kindpng_786207"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_contact_by_cel_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:text="@string/main_contacts"/>
+            <TextView
+                android:id="@+id/tv_contact_by_cel_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textAcent"
+                android:text="+51987654321"/>
+        </LinearLayout>
+
+        <com.google.android.material.card.MaterialCardView
+            app:cardElevation="6dp"
+            app:cardCornerRadius="10dp"
+            android:layout_weight="2.5"
+            android:backgroundTint="@color/colorAccent"
+            android:id="@+id/ideaCard__state"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/foun_suave"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp">
+
+            <TextView
+                android:id="@+id/tv_state_contact"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Invitar"
+                android:textColor="@color/white_with_alpha"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+
+</LinearLayout>

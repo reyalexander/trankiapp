@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#005B85</color>
+    <color name="colorPrimaryDark">#000E57</color>
+    <color name="colorAccent">#3F51B5</color>
+    <color name="found_blue">#909FF8</color>
+
+    <color name="colorSpace">#00FFFF</color>
+
+    <color name="colorFound">#128bea</color>
+    <color name="colorBoton">#0c5f9f</color>
+    <color name="colorBase">#0663ad</color>
+    <color name="textAcent">#808080</color>
+    <color name="found_fragments">#A3A5A8</color>
+    <color name="foun_suave">#61FFFFFF</color>
+    <color name="colorGris">#626461</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_found">#DACECE</color>
+    <color name="black">#000000</color>
+    <color name="saudo_black">#221E1E</color>
+    <color name="moneda">#FC8400</color>
+    <color name="found_flbtn">#FFFFFF</color>
+    <color name="green">#14FF00</color>
+    <color name="red">#FF0000</color>
+
+
+    <!--colors for modern ui-->
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#00a5ff</color>
+    <color name="loginBkColor">#f0f0f0</color>
+
+    <!--colros for card-->
+    <color name="whiteCardColor">#fff</color>
+
+</resources>
